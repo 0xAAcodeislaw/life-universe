@@ -4,7 +4,8 @@
   "private": true,
   "description": "Life Universe, packaged as a Cloudflare Workers Static Assets site.",
   "scripts": {
-    "build": "haxe build.hxml",
+    "build": "node scripts/check-site.mjs",
+    "build:haxe": "haxe build.hxml",
     "dev": "wrangler dev",
     "deploy": "wrangler deploy"
   },
