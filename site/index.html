@@ -2,8 +2,7 @@
 
 <head>
 	<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-		<meta name="author" content="saharan">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 	<title>Life Universe</title>
 	<style>
 		html {
@@ -46,30 +45,6 @@
 			user-select: none;
 			-webkit-user-select: none;
 		}
-
-		#credits {
-			position: fixed;
-			right: max(12px, env(safe-area-inset-right));
-			bottom: max(12px, env(safe-area-inset-bottom));
-			z-index: 2;
-			max-width: calc(100vw - 48px);
-			padding: 8px 12px;
-			border: 1px solid #4b5563;
-			border-radius: 8px;
-			background: rgba(0, 0, 0, 0.9);
-			color: #f3f4f6;
-			font: 12px/1.6 system-ui, sans-serif;
-		}
-
-		#credits a {
-			color: #ffffff;
-			text-underline-offset: 3px;
-		}
-
-		#credits a:focus-visible {
-			outline: 2px solid #ffffff;
-			outline-offset: 4px;
-		}
 	</style>
 </head>
 
@@ -78,10 +53,6 @@
 		<div>Loading...</div>
 	</div>
 	<div id="wrapper"><canvas id="canvas"></canvas></div>
-	<aside id="credits" aria-label="原作者与致谢">
-		<a href="https://github.com/saharan/works/tree/main/life" target="_blank" rel="noopener noreferrer">Life Universe · 原作 saharan</a><br>
-		致敬原作者，感谢创作与开源分享。
-	</aside>
 	<script src="main.js"></script>
 </body>
 

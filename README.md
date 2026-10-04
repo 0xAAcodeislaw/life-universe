@@ -6,7 +6,7 @@ An interactive Conway's Game of Life universe, adapted from [saharan/works/life]
 
 ## 原作者与致谢 / Credits
 
-**Life Universe 的原作者是 [saharan](https://github.com/saharan)。** 原作与核心模拟代码来自 [saharan/works/life](https://github.com/saharan/works/tree/main/life)。本仓库仅整理 Cloudflare 一键部署所需的文件与配置，并添加可见署名。
+**Life Universe 的原作者是 [saharan](https://github.com/saharan)。** 原作与核心模拟代码来自 [saharan/works/life](https://github.com/saharan/works/tree/main/life)。本仓库仅整理 Cloudflare 一键部署所需的文件与配置。作者署名与致谢保留在本仓库中，网页保持原作的简洁画面。
 
 向 saharan 致敬，感谢他创造并开源 Life Universe，让我们得以探索康威生命游戏的世界。原作者的版权声明与 MIT 许可证完整保留在 [LICENSE](LICENSE) 中。
 
