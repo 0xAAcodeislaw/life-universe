@@ -1,0 +1,10 @@
+-cp src
+-cp Pot/src
+-cp Muun/src
+-cp Std/src
+-L hgsl
+-L format
+-D analyzer-optimize
+-D js-es=6
+--main Main
+--js site/main.js

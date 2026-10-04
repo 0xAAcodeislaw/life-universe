@@ -1,0 +1,14 @@
+{
+  "name": "life-universe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Life Universe, packaged as a Cloudflare Workers Static Assets site.",
+  "scripts": {
+    "build": "haxe build.hxml",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.147.0"
+  }
+}
